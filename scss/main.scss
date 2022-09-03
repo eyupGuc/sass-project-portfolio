@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  p {
+    padding: 0;
+  }
+}
+@import "./base/reset";
+
+@import "./abstracts/mixins", "./abstracts/variables";
+
+@import "./components/footer", "./components/nav",
+  "./components/responsive.scss";
+
+@import "./pages/about", "./pages/contact", "./pages/home", "./pages/project";
